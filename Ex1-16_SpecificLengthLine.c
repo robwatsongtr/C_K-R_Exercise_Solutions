@@ -1,6 +1,9 @@
-#include <stdio.h>
-#define MAXLINE 10
 
+// MAXLINE 10 is a constant I chose for now, it can be whatever
+// which is the point of the program
+
+#include <stdio.h>
+#define MAXLINE 10 
 
 int myGetLine(char line[], int maxline);
 void copyFunc(char to[], char from[]);
